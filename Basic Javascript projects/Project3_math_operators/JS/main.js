@@ -41,14 +41,18 @@ function f7() {
 }
 
 // will represnt incremented value
-var x=5;
-x++;
-document.write(x);
+function increment(){
+    var value=document.getElementById("IT").innerHTML;
+    value++;
+    document.getElementById("Inc").innerHTML= value;
+}
 
 //this will represnt decrement value
-var y=8;
-y--;
-document.write(y);
+function decrement(){
+var value=document.getElementById("DT").innerHTML;
+value--;
+document.getElementById("decre").innerHTML= value;
+}
 
 //window.alert(Math.random());
 window.alert(Math.random()*70);
