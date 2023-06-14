@@ -61,3 +61,4 @@ window.alert(Math.random()*70);
 function f8(){
 document.getElementById("mathstatic").innerHTML=Math.round(4.3);
 }
+
