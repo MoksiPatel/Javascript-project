@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Scope-Time-Function</title>
+        <script src="JS/main.js"></script>
+    </head>
+    <body>
+        <!--this is local varibale-->
+        <p id="local" onclick="local_variable()">Click local!</p>
+
+        <!--this is global variable-->
+        <p id="anytime_var" onclick="global_variable()">Click Global</p>
+
+        <!--error variable-->
+        <p id="Err" onclick="error_variable()">Click error</p>
+
+        <!--getdate-->
+        <p id="Greeting" onclick="get_date()">GREET</p>
+
+        <!--if statement-->
+        <p id="can_drive" onclick="Drive_right()">check driving Eligibility</p>
+
+        <!--if else-->
+        <input id="Age" value=""/>
+        <p id="how_old"></p>
+        <button onclick="Age_function()">click here</button>
+
+        <!--Else assignment-->
+        <h3>Loan Eligibility</h3>
+        <input id="credit" value=""/>
+        <p id="outof800"></p>
+        <button onclick="Approval()">Enter Credit Score </button>
+
+        <!--Elseif assignment-->
+        <h3>Time of the day</h3>
+        <p id="time_of_day"></p>
+        <button onclick="time_function()">what time of day </button>
+
+    </body>
+</html>
